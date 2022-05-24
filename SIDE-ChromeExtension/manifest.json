@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "SIDE",
+    "version": "1.0",
+    "description": "Simplified Intelligent Data Extraction",
+    "icons" : {
+        "128": "icons/side16.png",
+        "48": "icons/side48.png",
+        "16": "icons/side128.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "action": {
+        "default_popup": "SIDE.html"
+    },
+
+    "permissions": [
+        "clipboardRead",
+        "clipboardWrite",
+        "contextMenus",
+        "webNavigation",
+        "storage"
+    ]
+}

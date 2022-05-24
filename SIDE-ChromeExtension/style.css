@@ -1,0 +1,25 @@
+body {
+    width: 350px;
+    min-height: 150px;
+    height: auto; 
+    background-color: black;
+    border: 2px solid white;
+}
+
+#side-title {
+    text-align: center;
+    margin: auto;
+    color: #FFF;
+    font-size: 40px;
+}
+
+#side-intro{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: #FFF;
+    font-family: GothamLight;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
